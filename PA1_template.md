@@ -24,7 +24,7 @@ sumStep = aggregate(steps ~ date, dataTidy, sum)
 hist(sumStep$steps, col = "red", main = "Total number of steps taken each day", 
     xlab = "Steps Per Day")
 ```
-![plot of chunk part2](figure/part2.png) 
+png("Plot5.png") 
 ```r
 
 # disable scientific notation
@@ -57,7 +57,7 @@ plot(avgStep$interval, avgStep$step, type = "l", xlab = "5-minute interval ident
     ylab = "Steps", main = "Average number of steps across all days")
 ```
 
-![plot of chunk part3](figure/part3.png) 
+png("Plot6.png")
 
 ```r
 
@@ -105,7 +105,7 @@ hist(sumStepNew$steps, col = "red", main = "Total number of steps taken each day
     xlab = "Total Number of Steps")
 ```
 
-![plot of chunk part 4](figure/part_4.png) 
+png(Plot7.png")
 
 ```r
 
@@ -153,6 +153,6 @@ xyplot(steps ~ interval | dateIs, data = avgStepDateIs, type = "l", layout = c(2
     1), xlab = "Interval", ylab = "Number of steps")
 ```
 
-![plot of chunk part5](figure/part5.png) 
+png("Plot8.png")
 
 
