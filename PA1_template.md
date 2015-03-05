@@ -1,7 +1,6 @@
 Reproducible Research: Peer Assessment 1
 
 ## Loading and preprocessing the data
-
 ```r
 
 # Assume the activity.csv was placed at the same directory as this Rmarkdown
