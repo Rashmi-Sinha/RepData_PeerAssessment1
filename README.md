@@ -1,7 +1,5 @@
-RepData_PeerAssessment1
-=======================
+## Introduction
 
-<<<<<<< HEAD
 
 It is now possible to collect a large amount of data about personal
 movement using activity monitoring devices such as a
@@ -169,6 +167,3 @@ https://github.com/rdpeng/RepData_PeerAssessment1
 
 7c376cc5447f11537f8740af8e07d6facc3d9645
 ```
-=======
-Peer Assessment 1 for Reproducible Research
->>>>>>> parent of a7035a1... Update instructions/README
